@@ -10,3 +10,8 @@ commit 2.11:
 commit 2.2:
     completely changed the code of splitting the data as we haven't used the augumentation , and the dataset size is only 1000 , 
     added sepearate splitting datagenerators for training and testing because testing don't need data augumentation.
+
+commit 3:
+    added .gitignore in checkpints
+    added batch normalization in the import cell 
+    trained the model on random architecutre and the validation accuracy was around 96 and i want to make many changes in that , just left that like how it was from the gpt , and i have also saved model for each epoch in a new checkpoints folder
