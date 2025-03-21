@@ -15,3 +15,5 @@ commit 3:
     added .gitignore in checkpints
     added batch normalization in the import cell 
     trained the model on random architecutre and the validation accuracy was around 96 and i want to make many changes in that , just left that like how it was from the gpt , and i have also saved model for each epoch in a new checkpoints folder
+commit 3.1:
+    i have tested with different images of cats and dogs from that there are some images in which the dog looks like cat and vice versa , so the model had confused and predicted wrongly . i want to try with incresing the layers and let's see , i may get but as the dataset is quite small it may not happen , if so , then i will change the dataset.
